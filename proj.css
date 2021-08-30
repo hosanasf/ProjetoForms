@@ -1,0 +1,63 @@
+
+
+
+body{
+    font-family: 'Patrick Hand', cursive;
+    background-color: rgb(36, 231, 231);
+    padding: 20px;
+    margin-left: 30%;
+ 
+}
+fieldset{
+    display: flexbox;
+    max-width: 500px;
+    line-height: 20px;
+    padding: 30px;
+    margin: 0px;
+}
+
+.bot{
+    top: 0%;
+    left: 15%;
+}   
+
+button{
+    height:30px; 
+    width:100px; 
+    margin: -20px -50px; 
+    position:relative;
+    top:50%; 
+    left:30%;
+    color: white;
+    background-color: black;
+}
+
+button:hover{
+    background-color: rgb(12, 129, 129);
+}
+
+.container{
+    position:relative;
+    margin-top: -7vh;
+    width: 100px;
+    height: 150px;
+}
+
+.box{
+    position: absolute;
+    top: 30px;
+    left: 165px;
+    width: 200px;
+    height: 100px;
+}
+
+h1, .uni{
+    display: inline-block;
+}
+
+.caixa{
+    width: 20em; 
+    height: 3em;
+}
+
+      

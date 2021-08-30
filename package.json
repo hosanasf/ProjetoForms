@@ -1,0 +1,24 @@
+{
+  "name": "formulariojobs",
+  "version": "1.0.0",
+  "description": "um formulário ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Hosana",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hosanasf"
+  },
+  "private": null,
+  "dependencies": {
+    "connect": "^3.7.0",
+    "mysql": "^2.18.1",
+    "serve-static": "^1.14.1"
+  },
+  "devDependencies": {}
+}

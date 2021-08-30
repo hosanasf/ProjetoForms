@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="proj.css">
+    <title>Formulário</title>
+</head>
+<!-- <nav>
+    <div>
+        <ul>
+            <li>Inicio</li>
+            <a class="nav__a"href="#sobre">
+                <li>Dados Pessoais</li>
+            </a>
+            <a class="nav__a" href="#contato">
+                <li>Documentos</li>
+            </a>
+        </ul>
+    </div>
+</nav> -->
+<body>
+    <div>                                
+        <h2>Cadastro</h2>
+        <br>
+    </div>
+    <form>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <br>
+            <label>Nome completo:</label>
+                <input name="nome" type="text" placeholder="Ferreira" required>
+            <br>
+            <br>
+            <label>Cargo pretendido</label>
+                <input name="nome" type="text" placeholder="Ferreira" required>
+            <br>
+            <br>
+            <label>Data de Nascimento: </label>
+                <input id="date" type="date" value="yyyy-MM-dd" required>
+            <br>
+            <br>
+            <label>Estado Civil:</label>
+                <select id="estadocivil" name="civil">
+                    <option disabled selected placeholder="Selecione..">Selecione..</option>
+                    <option value="casado">Casado</option>
+                    <option value="solteiro">Solteiro</option>
+                    <option value="viuvo">Viuvo(a)</option>
+                    <option value="separado">Separado</option>
+                    <option value="divorciado">Divorciado</option>
+                    <option value="outro">Outro</option>
+                </select>
+            <label>Sexo:</label>
+                <select id="sexo" name="sexo">
+                    <option disabled selected placeholder="Selecione..">Selecione..</option>
+                    <option value="F">Feminino</option>
+                    <option value="M">Masculino</option>
+                </select>
+            <br>
+            <br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Endereço</legend>
+            <br>
+            <label>País:</label>
+                <input name="nome" type="text" placeholder="" required>
+            <br>
+            <br>
+            <label>Estado:</label>
+            <select id="estado" name="estado">
+                <option disabled selected placeholder="Selecione..">Selecione..</option>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+            </select>
+            <br>
+            <br>
+            <label>Cidade:</label>
+            <select id="cidade" name="cidade">
+                <option disabled selected placeholder="Selecione..">Selecione..</option>
+                <option value="AC">Rio Branco</option>
+                <option value="AL">Maceió</option>
+                <option value="AP">Macapá</option>
+                <option value="AM">Manaus</option>
+                <option value="BA">Salvador</option>
+                <option value="CE">Fortaleza</option>
+                <option value="ES">Vitória</option>
+                <option value="GO">Goiânia</option>
+                <option value="MA">São Luís</option>
+                <option value="MT">Cuiabá</option>
+                <option value="MS">Campo Grande</option>
+                <option value="MG">Belo Horizonte</option>
+                <option value="PA">Belém</option>
+                <option value="PB">João Pessoa</option>
+                <option value="PR">Curitiba</option>
+                <option value="PE">Recife</option>
+                <option value="PI">Teresina</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Natal</option>
+                <option value="RS">Porto Alegre</option>
+                <option value="RO">Porto Velho</option>
+                <option value="RR">Boa Vista</option>
+                <option value="SC">Florianópolis</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Aracaju</option>
+                <option value="TO">Palmas</option>
+                <option value="DF">Brasília</option>
+            </select>
+            <br>
+            <br>
+            <label>E-mail:</label>
+                <input name="email" type="email" placeholder="ex: hosana@gmail.com" required>
+            <br>
+            <br>
+            <label>CPF</label>
+                <label for="cpf"><input name="cpf" type="number"></label>
+            <br>
+            <br>
+            <label>Bairro:</label>
+                <input name="nome" type="text" placeholder="" required>
+                <br>
+                <br>
+            <label>Complemento:</label>
+                <input name="nome" type="text" placeholder="" required>
+            <br>
+            <br>
+            <label>Celular:</label>
+                <input  name="nome" type="tel" placeholder="" required>
+            <br>
+            <br>
+            <label>Telefone fixo:</label>
+                <input name="nome" type="text" placeholder="" title="Digite números, please" required>
+            <br>
+        </fieldset>
+        <br>  
+        <fieldset>
+            <legend>Documentos</legend>
+            <br>
+            <label>RG</label>
+                <label for="rg"><input name="rg" type="number"></label>
+            <label>CPF</label>
+                <label for="cpf"><input name="cpf" type="number"></label>
+            <br>
+            <br>
+            <label>Possui veículo?</label>
+                <select id="opcao" name="opcao">
+                    <option disabled selected placeholder="Selecione..">Selecione..</option>
+                    <option value="S">Sim</option>
+                    <option value="N">Não</option>
+                </select>
+            <label>Possui Habilitação?</label>
+                <select id="opcao" name="opcao">
+                    <option disabled selected placeholder="Selecione..">Selecione..</option>
+                    <option value="S">Sim</option>
+                    <option value="N">Não</option>
+                </select>
+            <br>
+            <br>
+            <label>CTPS</label>
+                <label for="ctps"><input name="ctps" type="number" volue=""></label>
+            <br>
+            <br>
+        </fieldset>
+        <div class="texto__form-button">
+            <button class="button texto__button">Postar</button>
+        </div>
+    </form>
+
+</body>
+<footer class="footer__footer">
+    <p>&copy;Todos os direitos reservados 2021</p>
+
+</footer>
+</html>
